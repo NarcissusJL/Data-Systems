@@ -1,0 +1,4 @@
+1.Write a function called convertTime(date) that takes in string parameter date in the format given in the twitter json files. (e.g., Tue Mar 10 03:59:56 +0000 2020). The function then returns the string date converted to minutes from midnight on March 10 specified as an int. 
+2.Then, write a function called tweetFrequencies(dol) that takes in a single DoL to the number of tweets that occured at the start of the corresponding 30-minute time interval.
+3.Next, write a function called plotFrequencies that uses the dictionary returned by tweetFrequencies(dol) to create graphs that plot tweet frequency over time (using pyplot). 
+4.Finally, use call tweetFrequencies() and plotFrequencies() functions three times to obtain plots for all three cities.
